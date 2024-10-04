@@ -164,25 +164,3 @@ footer .social-media img {
     height: 24px;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    nav ul {
-        display: none;
-        flex-direction: column;
-        background: #4CAF50;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 200px;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-        text-align: center;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-}
