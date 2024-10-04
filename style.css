@@ -164,6 +164,21 @@ footer .social-media img {
     height: 24px;
 }
 
+
+button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+}
+
+/* Link Hover Effect */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffeb3b;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     nav ul {
@@ -182,7 +197,7 @@ footer .social-media img {
         text-align: center;
     }
 
-    
+
     .menu-toggle {
         display: block;
     }
