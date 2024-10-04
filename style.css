@@ -202,3 +202,9 @@ a:hover {
         display: block;
     }
 }
+/* Hide navigation links by default on mobile */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+}
